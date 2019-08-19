@@ -71,6 +71,7 @@ SSP/2.4.40 のみ。
 ■配布元
 監督できないアレ
 http://gmanager.seesaa.net/
+バグ報告や要望はこちらまでお願いします。
 
 ■連絡先
 製作者twitter
