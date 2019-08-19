@@ -1,0 +1,26 @@
+// シェルの設定
+// 詳細な情報はhttp://ukadoc.googlecode.com/svn/trunk/manual/descript_shell.html
+
+// ←先頭が//で始まる行は、コメント（動作に反映されないメモ）として使用可能
+
+// surfaces.txtの設定も忘れずに行うこと
+
+//------------------------------------------------------------------------------
+// charset,[文字コード]
+// WindowsはデフォルトがShift_JISなので、分からない場合このまま
+charset,Shift_JIS
+
+// type,[分類]
+// これはシェルのdescript.txtなので、[分類]＝shell
+type,shell
+
+// name,[シェル名]
+name,master
+
+// craftmanw,[作者名]
+// 基本的に、その絵を描いた作者名が記入されることが多い
+craftmanw,コーエーテクモゲームス
+
+// craftmanurl,[URL]
+// craftmanwで記入した作者のwebページ
+craftmanurl,URL

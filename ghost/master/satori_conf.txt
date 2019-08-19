@@ -1,0 +1,135 @@
+
+＃　変数等の初期化。
+＃　上書きしないので、途中追加した変数にも初期値を設定できます。
+
+＊初期化
+＄喋り間隔	６００秒
+＄喋り間隔誤差	１０％
+＄会話時サーフェス戻し	有効
+＄デフォルトサーフェス0	0
+＄デフォルトサーフェス1	10
+＄スコープ切り換え時	\n[half]
+＄自動挿入ウェイトの倍率	１００％
+＄なでられ反応回数	６０
+＄トーク中のなでられ反応	無効
+＄平日判定	１
+＄アラーム繰り返し回数	２０
+＄起動中アラーム繰り返し回数	０
+＄デバッグモード	０
+＄01曜日	未
+＄01時	0
+＄01分	0
+＄02曜日	未
+＄02時	0
+＄02分	0
+＄03曜日	未
+＄03時	0
+＄03分	0
+＄04曜日	未
+＄04時	0
+＄04分	0
+＄05曜日	未
+＄05時	0
+＄05分	0
+＄06曜日	未
+＄06時	0
+＄06分	0
+＄07曜日	未
+＄07時	0
+＄07分	0
+＄08曜日	未
+＄08時	0
+＄08分	0
+＄09曜日	未
+＄09時	0
+＄09分	0
+＄10曜日	未
+＄10時	0
+＄10分	0
+＄11曜日	未
+＄11時	0
+＄11分	0
+＄12曜日	未
+＄12時	0
+＄12分	0
+＄13曜日	未
+＄13時	0
+＄13分	0
+＄14曜日	未
+＄14時	0
+＄14分	0
+＄15曜日	未
+＄15時	0
+＄15分	0
+＄16曜日	未
+＄16時	0
+＄16分	0
+＄17曜日	未
+＄17時	0
+＄17分	0
+＄18曜日	未
+＄18時	0
+＄18分	0
+＄19曜日	未
+＄19時	0
+＄19分	0
+＄20曜日	未
+＄20時	0
+＄20分	0
+
+
+
+
+
+＃里々でははじめからいくつかのスクリプトの追加作業を自動で行ってくれています。
+＃
+＃＄会話時サーフェス戻し	有効
+＃は、会話を始めるときに、デフォルトサーフェス（初期設定なら０）を表示するという設定です。
+＃＄スコープ切り換え時	\n[half]
+＃は、相方⇒メイン　メイン⇒相方　としゃべるキャラクタが変わるときに、半行改行するという設定です。
+＃
+＃　SAORIを使わない場合、ここから下を消去してしまって構いません。
+＃　SAORIフォルダも不要です。
+＃
+＃　各栞共通プラグイン規格『SAORI』用の定義。
+＃　使うdllは予めここで列挙してください。
+＃
+＃　カンマ区切りで、左から順に
+＃　　・辞書からの呼び出すときの名前。dll名そのままでも構いません。
+＃　　・プラグインdllの相対パス。
+＃　　・自動設定される引数。これは省略可。
+＃
+
+＠SAORI
+calc,saori/ssu.dll,calc
+calc_float,saori/ssu.dll,calc_float
+if,saori/ssu.dll,if
+unless,saori/ssu.dll,unless
+nswitch,saori/ssu.dll,nswitch
+switch,saori/ssu.dll,switch
+substr,saori/ssu.dll,substr
+split,saori/ssu.dll,split
+replace,saori/ssu.dll,replace
+replace_first,saori/ssu.dll,replace_first
+erase,saori/ssu.dll,erase
+erase_first,saori/ssu.dll,erase_first
+count,saori/ssu.dll,count
+compare,saori/ssu.dll,compare
+compare_head,saori/ssu.dll,compare_head
+compare_tail,saori/ssu.dll,compare_tail
+length,saori/ssu.dll,length
+zen2han,saori/ssu.dll,zen2han
+han2zen,saori/ssu.dll,han2zen
+hira2kata,saori/ssu.dll,hira2kata
+kata2hira,saori/ssu.dll,kata2hira
+sprintf,saori/ssu.dll,sprintf
+iflist,saori/ssu.dll,iflist
+is_empty,saori/ssu.dll,is_empty
+is_digit,saori/ssu.dll,is_digit
+is_alpha,saori/ssu.dll,is_alpha
+choice,saori/ssu.dll,choice
+join,saori/ssu.dll,join
+reverse,saori/ssu.dll,reverse
+at,saori/ssu.dll,at
+lsimg,saori/ssu.dll,lsimg
+mkdir,saori/ssu.dll,mkdir

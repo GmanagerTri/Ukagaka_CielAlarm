@@ -1,0 +1,6 @@
+charset,Shift_JIS
+
+group,–{‘ÌŠî–{
+{
+0,Šî–{
+}
