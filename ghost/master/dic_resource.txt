@@ -17,7 +17,7 @@ homeurlはdic_network参照
 ＃sstpなどで%usernameが指定されたときに必要
 
 ＠sakura.recommendbuttoncaption
-配布元・連絡先(&R)
+配布元と連絡先(&R)
 ＃本体側の「おすすめ」の名称。
 ＃ここからcaptionの指定
 

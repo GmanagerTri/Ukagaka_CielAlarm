@@ -7,7 +7,7 @@ SSPでは上記に加えfileio/readonly
 
 
 ＠homeurl
-http://更新元url
+https://raw.githubusercontent.com/GmanagerTri/Ukagaka_CielAlarm/master/
 
 ＃ネットワーク更新時にアクセスするアドレスです。
 ＃フォルダ名を記述、最後に「必ず」、/をつけてください。
